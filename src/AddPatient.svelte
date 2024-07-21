@@ -1,7 +1,7 @@
 <script lang="ts">
   import axios, { AxiosError } from 'axios';
+  import { fhirBaseUrl } from './utils';
 
-  const fhirBaseUrl = 'https://fhir-bootcamp.medblocks.com/fhir';
   let name = '';
   let gender = '';
   let birthDate = '';

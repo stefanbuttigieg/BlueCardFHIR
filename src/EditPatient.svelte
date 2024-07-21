@@ -2,10 +2,10 @@
   import { onMount } from 'svelte';
   import axios, { AxiosError } from 'axios';
   import page from 'svelte-spa-router';
+  import { fhirBaseUrl } from './utils';
 
   export let id: string;
 
-  const fhirBaseUrl = 'https://fhir-bootcamp.medblocks.com/fhir';
   // let id = '';
   let name = '';
   let gender = '';
